@@ -1,11 +1,11 @@
 # The Arabic Keyphrase Extraction Corpus
 This repository contains the Arabic Keyphrase Extraction Corpus (AKEC) built by Muhammad Helmy, Marco Basaldella, Eddy Maddalena, Stefano Mizzaro and Gianluca Demartini.
 
-The corpus itself and the process we used for building it are described in _''Towards Building a Standard Dataset for Arabic Keyphrase Extraction Evaluation''_, presented at the 20th International Conference on Asian Language Processing (IALP 2016), held in Tainan, Taiwan, from November 21 to 23, 2016.
+The corpus and the process we used for its building are described in detail in the paper _''Towards Building a Standard Dataset for Arabic Keyphrase Extraction Evaluation''_, presented at the 20th International Conference on Asian Language Processing (IALP 2016), held in Tainan, Taiwan, from November 21 to 23, 2016.
 
 ## The corpus
 
-The corpus consists in 160 arabic newspapers articles and their keyphrases. The articles come from a variety of sources, while the keyphrases have been collected using crowdsourcing. 
+The corpus consists in 160 arabic documents and their keyphrases. We selected the documents from a variety of sources, while we collected the keyphrases using a large-scale Crowdsourcing experiment. 
 
 The repository is structured as follows.
 
@@ -19,9 +19,9 @@ The repository is structured as follows.
 ```
 
 
-The documents are contained in the ```documents``` folder. We provide the documents in their original form (plus some formatting) in the ```raw``` folder and in _pure_ form, i.e. with diacritics removed, in the ```pure``` folder. 
+The ```documents``` folder contains the documents. We provide the documents in their original form (plus some formatting) in the ```raw``` folder and in _pure_ form, i.e. with diacritics removed, in the ```pure``` folder. 
 
-Keyphrases are placed in the ```keyphrases``` directory. We provide four files; two ordered using their frequency inside the crowd workers selections (in the `sort_frequency` folder) and two ordered using a simple language model generated from the crowd selection as well (in the `sort_frequency` folder). For each sorting, we provide both the keyphrases in their _pure_ form (```pure.txt```) and in their lemmatized form (```lemmatized.txt```).
+The ```keyphrases``` folder contains the crowd-assigned keyphrases. We provide four files; two of them contain the keyphrases ordered using their frequency inside the crowd workers selections (in the `sort_frequency` folder) and the other two contain the keyphrases ordered using a simple language model generated from the crowd selection as well (in the `sort_frequency` folder). For each sorting, we provide both the keyphrases in their _pure_ form (```pure.txt```) and in their _lemmatized_ form (```lemmatized.txt```).
 
 ### Citation
 
