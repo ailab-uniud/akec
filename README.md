@@ -28,7 +28,7 @@ Keyphrases are placed in the ```keyphrases``` directory. We provide four files; 
 If you use our dataset, please cite the reference paper:
 
 ```
-@inproceedings{muhammad2016crowdsourcing,
+@inproceedings{akec2016,
 	author={Helmy, Muhammad and Basaldella, Marco and Maddalena, Eddy and Mizzaro, Stefano and Demartini, Gianluca},
     title={Towards Building a Standard Dataset for Arabic Keyphrase Extraction Evaluation},
     booktitle={Proceedings of the 20th International Conference on Asian Language Processing (IALP 2016)},
