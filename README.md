@@ -1,5 +1,5 @@
 # The Arabic Keyphrase Extraction Corpus
-This repository will containes the Arabic Keyphrase Extraction Corpus (AKEC) built by Muhammad Helmy, Marco Basaldella, Eddy Maddalena, Stefano Mizzaro and Gianluca Demartini.
+This repository contains the Arabic Keyphrase Extraction Corpus (AKEC) built by Muhammad Helmy, Marco Basaldella, Eddy Maddalena, Stefano Mizzaro and Gianluca Demartini.
 
 The corpus itself and the process we used for building it are described in _''Towards Building a Standard Dataset for Arabic Keyphrase Extraction Evaluation''_, presented at the 20th International Conference on Asian Language Processing (IALP 2016), held in Tainan, Taiwan, from November 21 to 23, 2016.
 
