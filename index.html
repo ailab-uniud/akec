@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<!-- Styles -->
+<style>
+#chartdiv {
+  width: 100%;
+  height: 500px;
+}								
+</style>
+
+<!-- Resources -->
+<script src="https://www.amcharts.com/lib/3/ammap.js"></script>
+<script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js"></script>
+<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+
+<!-- Chart code -->
+<script>
+var map = AmCharts.makeChart( "chartdiv", {
+  "type": "map",
+  "theme": "light",
+  "dataProvider": {
+    "map": "worldHigh",
+    "zoomLevel": 2.4,
+    "zoomLongitude": 100,
+    "zoomLatitude": 26,
+    "areas": [{
+		"title": "Egypt",
+		"id": "EG",
+		"color": "#013B83",
+		"customData": "113",
+		"groupId": "100 workers"
+}
+,
+{
+		"title": "Algeria",
+		"id": "DZ",
+		"color": "#2E67A1",
+		"customData": "26",
+		"groupId": "20 workers"
+}
+,
+{
+		"title": "Saudi Arabia",
+		"id": "SA",
+		"color": "#2E67A1",
+		"customData": "23",
+		"groupId": "20 workers"
+}
+,
+{
+		"title": "Tunisia",
+		"id": "TN",
+		"color": "#5C93BF",
+		"customData": "17",
+		"groupId": "10 workers"
+}
+,
+{
+		"title": "Palestine, State of",
+		"id": "PS",
+		"color": "#5C93BF",
+		"customData": "14",
+		"groupId": "10 workers"
+}
+,
+{
+		"title": "Jordan",
+		"id": "JO",
+		"color": "#5C93BF",
+		"customData": "11",
+		"groupId": "10 workers"
+}
+,
+{
+		"title": "United Arab Emirates",
+		"id": "AE",
+		"color": "#89BFDD",
+		"customData": "7",
+		"groupId": "5 workers"
+}
+,
+{
+		"title": "Morocco",
+		"id": "MA",
+		"color": "#B7EBFB",
+		"customData": "5",
+		"groupId": "more than 1 worker"
+}
+,
+{
+		"title": "Oman",
+		"id": "OM",
+		"color": "#B7EBFB",
+		"customData": "2",
+		"groupId": "more than 1 worker"
+}
+,
+{
+		"title": "Yemen",
+		"id": "YE",
+		"color": "#B7EBFB",
+		"customData": "2",
+		"groupId": "more than 1 worker"
+}
+,
+{
+		"title": "Indonesia",
+		"id": "ID",
+		"color": "#B7EBFB",
+		"customData": "1",
+		"groupId": "more than 1 worker"
+}
+,
+{
+		"title": "Germany",
+		"id": "DE",
+		"color": "#B7EBFB",
+		"customData": "1",
+		"groupId": "more than 1 worker"
+}
+,
+{
+		"title": "Netherlands",
+		"id": "NL",
+		"color": "#B7EBFB",
+		"customData": "1",
+		"groupId": "more than 1 worker"
+}
+,
+{
+		"title": "France",
+		"id": "FR",
+		"color": "#B7EBFB",
+		"customData": "1",
+		"groupId": "more than 1 worker"
+}
+,
+{
+		"title": "Turkey",
+		"id": "TR",
+		"color": "#B7EBFB",
+		"customData": "1",
+		"groupId": "more than 1 worker"
+}
+,
+{
+		"title": "Qatar",
+		"id": "QA",
+		"color": "#B7EBFB",
+		"customData": "1",
+		"groupId": "more than 1 worker"
+}
+    ]
+  },
+
+  "areasSettings": {
+    "rollOverOutlineColor": "#FFFFFF",
+    "rollOverColor": "#CC0000",
+    "alpha": 0.8,
+    "unlistedAreasAlpha": 0.1,
+    "balloonText": "[[customData]] single workers from [[title]]"
+  },
+
+
+  "legend": {
+    "width": "100%",
+    "marginRight": 27,
+    "marginLeft": 27,
+    "equalWidths": false,
+    "backgroundAlpha": 0.5,
+    "backgroundColor": "#FFFFFF",
+    "borderColor": "#ffffff",
+    "borderAlpha": 1,
+    "top": 450,
+    "left": 0,
+    "horizontalGap": 10,
+    "data": [ {
+      "title": "more than 1 worker",
+      "color": "#B7EBFB"
+    }, {
+      "title": "more than 5 worker",
+      "color": "#89BFDD"
+    }, {
+      "title": "more than 10 worker",
+      "color": "#5C93BF"
+    }, {
+      "title": "more than 20 worker",
+      "color": "#2E67A1"
+    }, {
+      "title": "more than 100 worker",
+      "color": "#013B83"
+    } ]
+  },
+  "export": {
+    "enabled": true
+  }
+
+} );
+</script>
+
+<!-- HTML -->
+<div id="chartdiv"></div>	
+</body>
+</html>
