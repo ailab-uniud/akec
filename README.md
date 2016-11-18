@@ -21,7 +21,7 @@ The repository is structured as follows.
 
 The ```documents``` folder contains the documents. We provide the documents in their original form (plus some formatting) in the ```raw``` folder and in _pure_ form, i.e. with diacritics removed, in the ```pure``` folder. 
 
-The ```keyphrases``` folder contains the crowd-assigned keyphrases. We provide four files; two of them contain the keyphrases ordered using their frequency inside the crowd workers selections (in the `sort_frequency` folder) and the other two contain the keyphrases ordered using a simple language model generated from the crowd selection as well (in the `sort_frequency` folder). For each sorting, we provide both the keyphrases in their _pure_ form (```pure.txt```) and in their _lemmatized_ form (```lemmatized.txt```).
+The ```keyphrases``` folder contains the crowd-assigned keyphrases. We provide four files; two of them contain the keyphrases ordered using their frequency inside the crowd workers selections (in the `sort_frequency` folder) and the other two contain the keyphrases ordered using a simple language model generated from the crowd selection as well (in the `sort_lm` folder). For each sorting, we provide both the keyphrases in their _pure_ form (```pure.txt```) and in their _lemmatized_ form (```lemmatized.txt```).
 
 ### Citation
 
