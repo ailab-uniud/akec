@@ -3,7 +3,7 @@ This repository contains the Arabic Keyphrase Extraction Corpus (AKEC) built by 
 
 The corpus and the process we used for its building are described in detail in the paper _''Towards Building a Standard Dataset for Arabic Keyphrase Extraction Evaluation''_, presented at the 20th International Conference on Asian Language Processing (IALP 2016), held in Tainan, Taiwan, from November 21 to 23, 2016.
 
-An overview of the Corpus is available at this link: https://ailab-uniud.github.io/akec/
+You can find a brief statistical overview of the Corpus in the ```docs``` folders, or you can see it online at [this link](https://ailab-uniud.github.io/akec/).
 
 ## The corpus
 
@@ -12,6 +12,7 @@ The corpus consists in 160 arabic documents and their keyphrases. We selected th
 The repository is structured as follows.
 
 ```
+├── docs 
 ├── documents 
 │   ├── pure
 │   └── raw
@@ -20,6 +21,7 @@ The repository is structured as follows.
     └── sort_lm
 ```
 
+The ```docs``` folder contains the stastical analysis mentioned above.
 
 The ```documents``` folder contains the documents. We provide the documents in their original form (plus some formatting) in the ```raw``` folder and in _pure_ form, i.e. with diacritics removed, in the ```pure``` folder. 
 
@@ -42,3 +44,14 @@ If you use our dataset, please cite the reference paper:
 ### Acknowledgments
 
 To perform NLP in Arabic, we used the [AraMorph](http://www.nongnu.org/aramorph/) software, which is a Java port of the [Buckwalter Arabic Morphological Analyzer](https://catalog.ldc.upenn.edu/LDC2002L49). 
+
+We selected the documents for our corpus from 4 different sources:
+* [Arabic Newspapers Corpus](https://sites.google.com/site/mouradabbas9/corpora)
+* [Corpus of Contemporary Arabic](https://sourceforge.net/projects/easc-corpus/)
+* [Essex Arabic Summaries Corpus](https://sourceforge.net/projects/easc-corpus/)
+* [Open Source Arabic Corpora](https://sites.google.com/site/motazsite/corpora/osac)
+
+
+### License
+
+Please be aware that some of the resources we used to assemble are licensed for research purposes only. For this reason, we also make our corpus available for research purposes only. 
