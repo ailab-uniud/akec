@@ -1,4 +1,5 @@
 # The Arabic Keyphrase Extraction Corpus
+
 This repository contains the Arabic Keyphrase Extraction Corpus (AKEC) built by Muhammad Helmy, Marco Basaldella, Eddy Maddalena, Stefano Mizzaro and Gianluca Demartini.
 
 The corpus and the process we used for its building are described in detail in the paper _''Towards Building a Standard Dataset for Arabic Keyphrase Extraction Evaluation''_, presented at the 20th International Conference on Asian Language Processing (IALP 2016), held in Tainan, Taiwan, from November 21 to 23, 2016.
@@ -27,7 +28,7 @@ The ```documents``` folder contains the documents. We provide the documents in t
 
 The ```keyphrases``` folder contains the crowd-assigned keyphrases. We provide four files; two of them contain the keyphrases ordered using their frequency inside the crowd workers selections (in the `sort_frequency` folder) and the other two contain the keyphrases ordered using a simple language model generated from the crowd selection as well (in the `sort_lm` folder). For each sorting, we provide both the keyphrases in their _pure_ form (```pure.txt```) and in their _lemmatized_ form (```lemmatized.txt```).
 
-### Citation
+## Citation
 
 If you use our dataset, please cite the reference paper:
 
@@ -41,7 +42,7 @@ If you use our dataset, please cite the reference paper:
 }
 ```
 
-### Acknowledgments
+## Acknowledgments
 
 To perform NLP in Arabic, we used the [AraMorph](http://www.nongnu.org/aramorph/) software, which is a Java port of the [Buckwalter Arabic Morphological Analyzer](https://catalog.ldc.upenn.edu/LDC2002L49). 
 
@@ -52,6 +53,6 @@ We selected the documents for our corpus from 4 different sources:
 * [Open Source Arabic Corpora](https://sites.google.com/site/motazsite/corpora/osac)
 
 
-### License
+## License
 
 Please be aware that some of the resources we used to assemble are licensed for research purposes only. For this reason, we also make our corpus available for research purposes only. 
