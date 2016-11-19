@@ -55,4 +55,4 @@ We selected the documents for our corpus from 4 different sources:
 
 ## License
 
-Please be aware that some of the resources we used to assemble are licensed for research purposes only. For this reason, we also make our corpus available for research purposes only. 
+Please be aware that some of the resources we used to assemble our corpus are licensed for research purposes only. For this reason, we also make our corpus available for research purposes only. 
