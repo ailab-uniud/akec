@@ -3,6 +3,8 @@ This repository contains the Arabic Keyphrase Extraction Corpus (AKEC) built by 
 
 The corpus and the process we used for its building are described in detail in the paper _''Towards Building a Standard Dataset for Arabic Keyphrase Extraction Evaluation''_, presented at the 20th International Conference on Asian Language Processing (IALP 2016), held in Tainan, Taiwan, from November 21 to 23, 2016.
 
+An overview of the Corpus is available at this link: https://ailab-uniud.github.io/akec/
+
 ## The corpus
 
 The corpus consists in 160 arabic documents and their keyphrases. We selected the documents from a variety of sources, while we collected the keyphrases using a large-scale Crowdsourcing experiment. 
