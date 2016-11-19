@@ -1,25 +1,35 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-<!-- Styles -->
-<style>
-#chartdiv {
-  width: 100%;
-  height: 500px;
-}								
-</style>
+<!-- saved from url=(0038)http://getbootstrap.com/examples/grid/ -->
+<html lang="en" class="gr__getbootstrap_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
-<!-- Resources -->
+    <title>Grid Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./res/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./res/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./res/grid.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./res/ie-emulation-modes-warning.js.download"></script>
 <script src="https://www.amcharts.com/lib/3/ammap.js"></script>
 <script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js"></script>
 <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
 <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
 <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
 
-<!-- Chart code -->
+
 <script>
 var map = AmCharts.makeChart( "chartdiv", {
   "type": "map",
@@ -27,184 +37,268 @@ var map = AmCharts.makeChart( "chartdiv", {
   "dataProvider": {
     "map": "worldHigh",
     "zoomLevel": 2.4,
-    "zoomLongitude": 100,
-    "zoomLatitude": 26,
+    "zoomLongitude": 65,
+    "zoomLatitude": 22,
     "areas": [{
-		"title": "Egypt",
-		"id": "EG",
-		"color": "#013B83",
-		"customData": "113",
-		"groupId": "100 workers"
+    "title": "Egypt",
+    "id": "EG",
+    "color": "#013B83",
+    "customData": "113",
+    "groupId": "100 workers"
 }
 ,
-{
-		"title": "Algeria",
-		"id": "DZ",
-		"color": "#2E67A1",
-		"customData": "26",
-		"groupId": "20 workers"
-}
-,
-{
-		"title": "Saudi Arabia",
-		"id": "SA",
-		"color": "#2E67A1",
-		"customData": "23",
-		"groupId": "20 workers"
-}
-,
-{
-		"title": "Tunisia",
-		"id": "TN",
-		"color": "#5C93BF",
-		"customData": "17",
-		"groupId": "10 workers"
-}
-,
-{
-		"title": "Palestine, State of",
-		"id": "PS",
-		"color": "#5C93BF",
-		"customData": "14",
-		"groupId": "10 workers"
-}
-,
-{
-		"title": "Jordan",
-		"id": "JO",
-		"color": "#5C93BF",
-		"customData": "11",
-		"groupId": "10 workers"
-}
-,
-{
-		"title": "United Arab Emirates",
-		"id": "AE",
-		"color": "#89BFDD",
-		"customData": "7",
-		"groupId": "5 workers"
-}
-,
-{
-		"title": "Morocco",
-		"id": "MA",
-		"color": "#B7EBFB",
-		"customData": "5",
-		"groupId": "more than 1 worker"
-}
-,
-{
-		"title": "Oman",
-		"id": "OM",
-		"color": "#B7EBFB",
-		"customData": "2",
-		"groupId": "more than 1 worker"
-}
-,
-{
-		"title": "Yemen",
-		"id": "YE",
-		"color": "#B7EBFB",
-		"customData": "2",
-		"groupId": "more than 1 worker"
-}
-,
-{
-		"title": "Indonesia",
-		"id": "ID",
-		"color": "#B7EBFB",
-		"customData": "1",
-		"groupId": "more than 1 worker"
-}
-,
-{
-		"title": "Germany",
-		"id": "DE",
-		"color": "#B7EBFB",
-		"customData": "1",
-		"groupId": "more than 1 worker"
-}
-,
-{
-		"title": "Netherlands",
-		"id": "NL",
-		"color": "#B7EBFB",
-		"customData": "1",
-		"groupId": "more than 1 worker"
-}
-,
-{
-		"title": "France",
-		"id": "FR",
-		"color": "#B7EBFB",
-		"customData": "1",
-		"groupId": "more than 1 worker"
-}
-,
-{
-		"title": "Turkey",
-		"id": "TR",
-		"color": "#B7EBFB",
-		"customData": "1",
-		"groupId": "more than 1 worker"
-}
-,
-{
-		"title": "Qatar",
-		"id": "QA",
-		"color": "#B7EBFB",
-		"customData": "1",
-		"groupId": "more than 1 worker"
-}
+{'color': '#FF028B', 'title': 'Egypt', 'id': 'EG', 'groupId': 'more than 5000 keyphrases', 'customData': 8090}, {'color': '#E84F07', 'title': 'Algeria', 'id': 'DZ', 'groupId': '1001 to 5000 keyphrases', 'customData': 1720}, {'color': '#E84F07', 'title': 'Saudi Arabia', 'id': 'SA', 'groupId': '1001 to 5000 keyphrases', 'customData': 1440}, {'color': '#E84F07', 'title': 'Tunisia', 'id': 'TN', 'groupId': '1001 to 5000 keyphrases', 'customData': 1280}, {'color': '#E84F07', 'title': 'Palestine, State of', 'id': 'PS', 'groupId': '1001 to 5000 keyphrases', 'customData': 1060}, {'color': '#FFDF05', 'title': 'Jordan', 'id': 'JO', 'groupId': '501 to 1000 keyphrases', 'customData': 670}, {'color': '#0593FF', 'title': 'United Arab Emirates', 'id': 'AE', 'groupId': '101 to 500 keyphrases', 'customData': 470}, {'color': '#0593FF', 'title': 'Morocco', 'id': 'MA', 'groupId': '101 to 500 keyphrases', 'customData': 460}, {'color': '#0593FF', 'title': 'Yemen', 'id': 'YE', 'groupId': '101 to 500 keyphrases', 'customData': 200}, {'color': '#0593FF', 'title': 'Oman', 'id': 'OM', 'groupId': '101 to 500 keyphrases', 'customData': 160}, {'color': '#2AB22C', 'title': 'Netherlands', 'id': 'NL', 'groupId': '1 to 100 keyphrases', 'customData': 100}, {'color': '#2AB22C', 'title': 'Germany', 'id': 'DE', 'groupId': '1 to 100 keyphrases', 'customData': 100}, {'color': '#2AB22C', 'title': 'Indonesia', 'id': 'ID', 'groupId': '1 to 100 keyphrases', 'customData': 100}, {'color': '#2AB22C', 'title': 'Qatar', 'id': 'QA', 'groupId': '1 to 100 keyphrases', 'customData': 100}, {'color': '#2AB22C', 'title': 'France', 'id': 'FR', 'groupId': '1 to 100 keyphrases', 'customData': 40}, {'color': '#2AB22C', 'title': 'Turkey', 'id': 'TR', 'groupId': '1 to 100 keyphrases', 'customData': 10}
     ]
   },
 
   "areasSettings": {
-    "rollOverOutlineColor": "#FFFFFF",
-    "rollOverColor": "#CC0000",
+    "rollOverOutlineColor": "#000000",
+    "rollOverColor": undefined,
+    "alpha": 0.7,
+    "unlistedAreasAlpha": 0.1,
+    "balloonText": "[[customData]] total keyphrases from [[title]]"
+  },
+
+
+"legend":{"width":"100%","marginRight":25,"marginLeft":25,"equalWidths":false,"backgroundAlpha":0.5,"backgroundColor":"#FFFFFF","borderColor":"#ffffff","borderAlpha":1,"top":450,"left":0, "horizontalGap":10,"data":[
+
+
+{'color': '#2AB22C', 'title': '1 to 100 total keyphrases'}, {'color': '#0593FF', 'title': '101 to 500 total keyphrases'}, {'color': '#FFDF05', 'title': '501 to 1000 total keyphrases'}, {'color': '#E84F07', 'title': '1001 to 5000 total keyphrases'}, {'color': '#FF028B', 'title': 'more than 5000 total keyphrases'}
+
+]},"export":{"enabled":true  }
+
+} );
+</script>
+
+<script>
+var map2 = AmCharts.makeChart( "chartdiv2", {
+  "type": "map",
+  "theme": "light",
+  "dataProvider": {
+    "map": "worldHigh",
+    "zoomLevel": 2.4,
+    "zoomLongitude": 65,
+    "zoomLatitude": 22,
+    "areas": [{
+    "title": "Egypt",
+    "id": "EG",
+    "color": "#013B83",
+    "customData": "113",
+    "groupId": "100 workers"
+}
+,
+
+
+
+{'color': '#FF028B', 'title': 'Egypt', 'id': 'EG', 'groupId': 'more than 100 unique workers', 'customData': 113}, {'color': '#E84F07', 'title': 'Algeria', 'id': 'DZ', 'groupId': '21 to 100 unique workers', 'customData': 26}, {'color': '#E84F07', 'title': 'Saudi Arabia', 'id': 'SA', 'groupId': '21 to 100 unique workers', 'customData': 23}, {'color': '#FFDF05', 'title': 'Tunisia', 'id': 'TN', 'groupId': '11 to 20 unique workers', 'customData': 17}, {'color': '#FFDF05', 'title': 'Palestine, State of', 'id': 'PS', 'groupId': '11 to 20 unique workers', 'customData': 14}, {'color': '#FFDF05', 'title': 'Jordan', 'id': 'JO', 'groupId': '11 to 20 unique workers', 'customData': 11}, {'color': '#0593FF', 'title': 'United Arab Emirates', 'id': 'AE', 'groupId': '6 to 10 unique workers', 'customData': 7}, {'color': '#2AB22C', 'title': 'Morocco', 'id': 'MA', 'groupId': '1 to 5 unique workers', 'customData': 5}, {'color': '#2AB22C', 'title': 'Yemen', 'id': 'YE', 'groupId': '1 to 5 unique workers', 'customData': 2}, {'color': '#2AB22C', 'title': 'Oman', 'id': 'OM', 'groupId': '1 to 5 unique workers', 'customData': 2}, {'color': '#2AB22C', 'title': 'France', 'id': 'FR', 'groupId': '1 to 5 unique workers', 'customData': 1}, {'color': '#2AB22C', 'title': 'Qatar', 'id': 'QA', 'groupId': '1 to 5 unique workers', 'customData': 1}, {'color': '#2AB22C', 'title': 'Germany', 'id': 'DE', 'groupId': '1 to 5 unique workers', 'customData': 1}, {'color': '#2AB22C', 'title': 'Netherlands', 'id': 'NL', 'groupId': '1 to 5 unique workers', 'customData': 1}, {'color': '#2AB22C', 'title': 'Turkey', 'id': 'TR', 'groupId': '1 to 5 unique workers', 'customData': 1}, {'color': '#2AB22C', 'title': 'Indonesia', 'id': 'ID', 'groupId': '1 to 5 unique workers', 'customData': 1}
+
+
+
+
+    ]
+  },
+
+  "areasSettings": {
+    "rollOverOutlineColor": "#000000",
+    "rollOverColor": undefined,
     "alpha": 0.8,
     "unlistedAreasAlpha": 0.1,
     "balloonText": "[[customData]] single workers from [[title]]"
   },
 
 
-  "legend": {
-    "width": "100%",
-    "marginRight": 27,
-    "marginLeft": 27,
-    "equalWidths": false,
-    "backgroundAlpha": 0.5,
-    "backgroundColor": "#FFFFFF",
-    "borderColor": "#ffffff",
-    "borderAlpha": 1,
-    "top": 450,
-    "left": 0,
-    "horizontalGap": 10,
-    "data": [ {
-      "title": "more than 1 worker",
-      "color": "#B7EBFB"
-    }, {
-      "title": "more than 5 worker",
-      "color": "#89BFDD"
-    }, {
-      "title": "more than 10 worker",
-      "color": "#5C93BF"
-    }, {
-      "title": "more than 20 worker",
-      "color": "#2E67A1"
-    }, {
-      "title": "more than 100 worker",
-      "color": "#013B83"
-    } ]
-  },
-  "export": {
-    "enabled": true
-  }
+"legend":{"width":"100%","marginRight":25,"marginLeft":25,"equalWidths":false,"backgroundAlpha":0.5,"backgroundColor":"#FFFFFF","borderColor":"#ffffff","borderAlpha":1,"top":450,"left":0, "horizontalGap":10,"data":[
+
+
+
+{'color': '#2AB22C', 'title': '1 to 5 unique workers'}, {'color': '#0593FF', 'title': '6 to 10 unique workers'}, {'color': '#FFDF05', 'title': '11 to 20 unique workers'}, {'color': '#E84F07', 'title': '21 to 100 unique workers'}, {'color': '#FF028B', 'title': 'more than 100 unique workers'}
+
+
+]},"export":{"enabled":true  }
 
 } );
 </script>
 
-<!-- HTML -->
-<div id="chartdiv"></div>	
-</body>
-</html>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-gr-c-s-loaded="true">
+
+
+  <style>
+
+.my_box{
+	margin: 1.5em 0 .2em 0; 
+}
+
+#chartdiv {
+  width: 100%;
+  border: 1px solid gray;
+  height: 500px;
+  
+} 
+
+#chartdiv2 {
+  width: 100%;
+  border: 1px solid gray;
+  height: 500px;
+  
+} 
+.img_interface{
+	/*width: 75%;*/
+	border-radius: 1px;
+	border: 1px solid gray;
+	/*border: 1px solid gray;*/
+/*-webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.4);*/
+/*-moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.4);*/
+/*box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.4);*/
+  
+}
+
+
+</style>
+
+
+    <div class="container">
+
+      <div class="page-header">
+        <h1>Overview on the Arabic Keyphrase Extraction Corpus (AKEC)</h1>
+        <!-- <p class="lead">Basic grid layouts to get you familiar with building within the Bootstrap grid system.</p> -->
+
+        <p>This page contains an overview on the Arabic Keyphrase Extraction Corpus (AKEC) built by Muhammad Helmy, Marco Basaldella, Eddy Maddalena, Stefano Mizzaro and Gianluca Demartini.</p>
+
+        <p>
+        The corpus is freely available for the download at this addredd: <a href="https://github.com/ailab-uniud/akec">https://github.com/ailab-uniud/akec</a>
+        </p>
+
+        </p>
+        The corpus and the process we used for its building are described in detail in the paper ''Towards Building a Standard Dataset for Arabic Keyphrase Extraction Evaluation'', presented at the 20th International Conference on Asian Language Processing (IALP 2016), held in Tainan, Taiwan, from November 21 to 23, 2016.
+        </p>
+
+       
+
+
+      </div class="container">
+      		<h4>The corpus</h4>
+
+   		<p>
+   		The corpus consists of 160 Arabic documents and their keyphrases which which have been obtained by performing a large-scale Crowdsourcing experiment.  
+   		</p>
+
+   		<p>From every document, 10 different workers extracted 10 sets of 10 keyphrases. The workers could operate in more than one document, but they could not carry out a document twice. 
+   		</p>
+
+   		<p>
+   		Therefore for every document, we collected 100 key phrases extracted by 10 different workers. Since the workers were not influenceable each other, some of the 100 keyphrases extracted from a document were repeated. 
+   		</p>
+
+		<p>
+   		We selected the documents from 4 different sources:
+   		<ul>
+   			<li>Arabic Newspapers Corpus (46)</li>
+   			<li>Corpus of Contemporary Arabic (53)</li>
+   			<li>Essex Arabic Summaries Corpus (31)</li>
+   			<li>Open Source Arabic Corpora (30) </li>
+   		</ul>
+
+   		<p>
+   		The documents belong to different categories: 
+
+   		<ul>
+   		
+   			<li> Art and music (18) </li>
+			<li> Environment (18) </li>
+			<li> Finance (18) </li>
+			<li> Health (19)  </li>
+			<li> Politics (18) </li>
+			<li> Religion (17) </li>
+			<li> Science and technology (18) </li>
+			<li> Sport (17) </li>
+			<li> Tourism (17) </li>
+		</ul>
+
+   		</p>
+
+
+
+      <h4>The creation of the corpus</h4>
+
+      	216 unique workers have extracted 16000 keyphrases from 160 Arabic documents. Below we present some statistics and curiosity.
+      	<!-- A total 216 unique workers, from 16 different countries participated to the project. -->
+
+      	<!-- The average time the workers spent working on a document was 5:02 mins. -->
+
+
+
+      	<h4>Graphic Interface</h4>
+
+
+
+
+      		The following image shows the graphic interface we provided to the workers.
+      		
+
+
+
+
+      		<img src="res/user_interface.png" class="img_interface my_box">
+		<h4> Time </h4>
+		<p>
+ The average time spent by a worker for the 10 key phrases extraction from a document is 5:02 min.
+</p> 
+<p>
+We performed the whole task in two sessions, each of them required about 12 hours. The sessions were carried out respectively the 3rd and the 6th February 2016.
+</p>
+		<h4>Geograpy</h4>
+
+      <div>
+
+      A total 216 unique workers, from 16 different countries participated to the project.
+
+		</div>
+
+      <div><div id="chartdiv" class="my_box"></div> 
+      		The chart shows which are the provenience countries of the 16000 collected keyphrases.
+      		
+		</div>
+     
+			<div><div id="chartdiv2" class="my_box"></div> 
+			The chart shows which are the provenience countries of the 216 unique workers.
+
+
+			<h4>Prices</h4>
+      	
+      	 <p>
+        We executed the experiment on  <a href="http://www.crowdflower.com/">CrowdFlower.com</a>
+        </p>
+
+      	<p>
+
+      		The whole experiment cost 134$ of which 112$ for the workers and 26$ for the platform fees. Every worker earned 0.07$ for every document performed. Since several workers performed more than one document, the average amount they earned consisted  0.51$.
+      		</p>
+</div>
+
+      
+
+
+      <!-- <p>Get three equal-width columns <strong>starting at desktops and scaling to large desktops</strong>. On mobile devices, tablets and below, the columns will automatically stack.</p>
+      <div class="row">
+        <div class="col-md-4">.col-md-4</div>
+        <div class="col-md-4">.col-md-4</div>
+        <div class="col-md-4">.col-md-4</div>
+      </div> -->
+
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./res/ie10-viewport-bug-workaround.js.download"></script>
+  
+
+</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
