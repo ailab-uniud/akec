@@ -28,6 +28,12 @@ The ```documents``` folder contains the documents. We provide the documents in t
 
 The ```keyphrases``` folder contains the crowd-assigned keyphrases. We provide four files; two of them contain the keyphrases ordered using their frequency inside the crowd workers selections (in the `sort_frequency` folder) and the other two contain the keyphrases ordered using a simple language model generated from the crowd selection as well (in the `sort_lm` folder). For each sorting, we provide both the keyphrases in their _pure_ form (```pure.txt```) and in their _lemmatized_ form (```lemmatized.txt```).
 
+## Test/train split
+
+We divided the corpus in 100 documents for training and 60 documents for training. The filenames of the training and testing documents are contained in ```train.ids``` and ```test.ids``` respectively.
+
+We provide you a convenient shell script called ```split.sh``` that does the dirty job of getting the training/testing documents and putting them into two folders called, unsurprisingly, ```train``` and ```test```. To split the documents in their original form, just navigate to the folder where you downloaded the corpus and run ```./split.sh raw```. To split the documents in the _pure_ form, just write ```pure``` instead of ```raw```.
+
 ## Citation
 
 If you use our dataset, please cite the reference paper:
